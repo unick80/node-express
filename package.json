@@ -10,6 +10,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unick80/node-express.git"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^4.0.3"

@@ -16,7 +16,7 @@ app.get('/', (req,res)=>{
 });
 
 app.get('/about', (req,res)=>{
-    res.render('aboit');});
+    res.render('about');});
 
 const PORT = process.env.PORT||3000;
 app.listen(PORT, () =>{
