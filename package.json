@@ -15,6 +15,7 @@
     "url": "git+https://github.com/unick80/node-express.git"
   },
   "dependencies": {
+    "@handlebars/allow-prototype-access": "^1.0.3",
     "express": "^4.17.1",
     "express-handlebars": "^4.0.3",
     "mongoose": "^5.9.10",
