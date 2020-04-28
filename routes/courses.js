@@ -4,7 +4,7 @@ const router = Router();
 
 router.get('/', async (req,res) => {
     const courses = await Course.find().populate('userId', 'email name').select('title price img');
-    console.log(courses);
+    //console.log(courses);
     
     res.render('courses', {
         title: "Курсы",
